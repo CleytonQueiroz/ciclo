@@ -1,0 +1,470 @@
+object FormCadastroUsuario: TFormCadastroUsuario
+  Left = 0
+  Top = 0
+  Caption = 'Form3'
+  ClientHeight = 480
+  ClientWidth = 450
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  OnCreate = FormCreate
+  OnHide = FormHide
+  OnVirtualKeyboardHidden = FormVirtualKeyboardHidden
+  DesignerMasterStyle = 0
+  object ToolBar1: TToolBar
+    Margins.Left = -10.000000000000000000
+    Margins.Right = -10.000000000000000000
+    Position.X = -10.000000000000000000
+    Size.Width = 470.000000000000000000
+    Size.Height = 48.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+    TintColor = claWhitesmoke
+    object Label8: TLabel
+      Align = Contents
+      StyledSettings = [Family, Size, Style]
+      Size.Width = 470.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      TextSettings.FontColor = claWhite
+      TextSettings.HorzAlign = Center
+      Text = 'Novo Usu'#225'rio'
+      TabOrder = 1
+    end
+    object btn_salvar: TSpeedButton
+      Align = Right
+      StyledSettings = [Family, Style]
+      Margins.Right = 15.000000000000000000
+      Position.X = 407.000000000000000000
+      Size.Width = 48.000000000000000000
+      Size.Height = 48.000000000000000000
+      Size.PlatformDefault = False
+      StyleLookup = 'donetoolbutton'
+      TextSettings.Font.Size = 14.000000000000000000
+      TextSettings.FontColor = claWhite
+      OnClick = btn_salvarClick
+    end
+    object ColorAnimation1: TColorAnimation
+      Duration = 0.200000002980232200
+      StartValue = claWhite
+      StopValue = claWhite
+    end
+  end
+  object VScroll: TVertScrollBox
+    Align = Client
+    Size.Width = 450.000000000000000000
+    Size.Height = 432.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+    Viewport.Width = 434.000000000000000000
+    Viewport.Height = 432.000000000000000000
+    object lay_mmc: TLayout
+      Align = Top
+      Position.Y = 495.000000000000000000
+      Size.Width = 434.000000000000000000
+      Size.Height = 99.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 3
+      object Label9: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 414.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = xFF959595
+        Text = 'MMC'
+      end
+      object ed_mmc: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        TextSettings.Font.Size = 14.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 33.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 15.000000000000000000
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        OnEnter = ed_mmcEnter
+      end
+    end
+    object lay_mod_pgto: TLayout
+      Align = Top
+      Position.Y = 891.000000000000000000
+      Size.Width = 434.000000000000000000
+      Size.Height = 99.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 4
+      object Label10: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 414.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = xFF959595
+        Text = 'MODO DE PAGAMENTO'
+      end
+      object ed_mod_pgt: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        TextSettings.Font.Size = 14.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 33.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 15.000000000000000000
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        OnEnter = ed_mod_pgtEnter
+      end
+    end
+    object lay_endereco: TLayout
+      Align = Top
+      Position.Y = 792.000000000000000000
+      Size.Width = 434.000000000000000000
+      Size.Height = 99.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 1
+      object Label13: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 414.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = xFF959595
+        Text = 'ENDERE'#199'O'
+      end
+      object ed_endereco: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        TextSettings.Font.Size = 14.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 33.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 15.000000000000000000
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        OnEnter = ed_enderecoEnter
+      end
+    end
+    object lay_email: TLayout
+      Align = Top
+      Position.Y = 198.000000000000000000
+      Size.Width = 434.000000000000000000
+      Size.Height = 99.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 7
+      object Label14: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 414.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = xFF959595
+        Text = 'EMAIL'
+      end
+      object ed_email: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        TextSettings.Font.Size = 14.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 33.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 15.000000000000000000
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        OnEnter = ed_emailEnter
+      end
+    end
+    object lay_cnpj: TLayout
+      Align = Top
+      Position.Y = 693.000000000000000000
+      Size.Width = 434.000000000000000000
+      Size.Height = 99.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 0
+      object Label15: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 414.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = xFF959595
+        Text = 'CNPJ'
+      end
+      object ed_cnpj: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        KeyboardType = NumberPad
+        TextSettings.Font.Size = 14.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 33.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 15.000000000000000000
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        OnEnter = ed_cnpjEnter
+      end
+    end
+    object lay_fone: TLayout
+      Align = Top
+      Position.Y = 594.000000000000000000
+      Size.Width = 434.000000000000000000
+      Size.Height = 99.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 2
+      object Label18: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 414.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = xFF959595
+        Text = 'TELEFONE'
+      end
+      object ed_fone: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        KeyboardType = PhonePad
+        TextSettings.Font.Size = 14.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 33.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 15.000000000000000000
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        OnEnter = ed_foneEnter
+      end
+    end
+    object lay_ult_nome: TLayout
+      Align = Top
+      Position.Y = 99.000000000000000000
+      Size.Width = 434.000000000000000000
+      Size.Height = 99.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 8
+      object Label17: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 414.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = xFF959595
+        Text = #218'LTIMO NOME'
+      end
+      object ed_ultimoNome: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        TextSettings.Font.Size = 14.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 33.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 15.000000000000000000
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        OnEnter = ed_ultimoNomeEnter
+      end
+    end
+    object lay_pri_nome: TLayout
+      Align = Top
+      Size.Width = 434.000000000000000000
+      Size.Height = 99.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 9
+      object Label16: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 414.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = xFF959595
+        Text = 'PRIMEIRO NOME'
+      end
+      object ed_priNome: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        TextSettings.Font.Size = 14.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 33.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 15.000000000000000000
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        OnEnter = ed_priNomeEnter
+      end
+    end
+    object lay_descricao: TLayout
+      Align = Top
+      Position.Y = 396.000000000000000000
+      Size.Width = 434.000000000000000000
+      Size.Height = 99.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 10
+      object Label19: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 414.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = xFF959595
+        Text = 'DESCRI'#199#195'O'
+      end
+      object ed_desc: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        TextSettings.Font.Size = 14.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 33.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 15.000000000000000000
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        OnEnter = ed_descEnter
+      end
+    end
+    object lay_tipo: TLayout
+      Align = Top
+      Position.Y = 297.000000000000000000
+      Size.Width = 434.000000000000000000
+      Size.Height = 99.000000000000000000
+      Size.PlatformDefault = False
+      TabOrder = 11
+      object Label11: TLabel
+        Align = Top
+        StyledSettings = [Family, Style]
+        Margins.Left = 20.000000000000000000
+        Margins.Top = 10.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 10.000000000000000000
+        Size.Width = 414.000000000000000000
+        Size.Height = 23.000000000000000000
+        Size.PlatformDefault = False
+        TextSettings.Font.Size = 11.000000000000000000
+        TextSettings.FontColor = xFF959595
+        Text = 'TIPO'
+      end
+      object ed_tipo: TEdit
+        Touch.InteractiveGestures = [LongTap, DoubleTap]
+        Align = Top
+        TabOrder = 0
+        TextSettings.Font.Size = 14.000000000000000000
+        Position.X = 20.000000000000000000
+        Position.Y = 33.000000000000000000
+        Margins.Left = 20.000000000000000000
+        Margins.Right = 20.000000000000000000
+        Margins.Bottom = 15.000000000000000000
+        Size.Width = 394.000000000000000000
+        Size.Height = 32.000000000000000000
+        Size.PlatformDefault = False
+        StyledSettings = [Family, Style, FontColor]
+        OnEnter = ed_tipoEnter
+      end
+    end
+  end
+  object RESTClient: TRESTClient
+    Authenticator = OAuth2_Facebook
+    Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
+    AcceptCharset = 'UTF-8, *;q=0.8'
+    Params = <>
+    RaiseExceptionOn500 = False
+    Left = 16
+    Top = 8
+  end
+  object RESTResponse: TRESTResponse
+    Left = 96
+    Top = 16
+  end
+  object RESTRequest: TRESTRequest
+    Client = RESTClient
+    Params = <>
+    Response = RESTResponse
+    OnAfterExecute = RESTRequestAfterExecute
+    SynchronizedEvents = False
+    Left = 272
+    Top = 8
+  end
+  object OAuth2_Facebook: TOAuth2Authenticator
+    AuthorizationEndpoint = 'https://www.facebook.com/dialog/oauth'
+    Left = 358
+    Top = 8
+  end
+end
