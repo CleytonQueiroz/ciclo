@@ -376,11 +376,6 @@
             <Form>FormCadastroUsuario</Form>
             <FormType>fmx</FormType>
         </DCCReference>
-        <DCCReference Include="DataModule.pas">
-            <Form>dm</Form>
-            <FormType>dfm</FormType>
-            <DesignClass>TDataModule</DesignClass>
-        </DCCReference>
         <DCCReference Include="Home.pas">
             <Form>FormHome</Form>
             <FormType>fmx</FormType>
@@ -394,6 +389,11 @@
             <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="..\..\..\..\..\..\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Multi-Device Samples\User Interface\ListView\ListViewMultiDetailAppearance\MultiDetailAppearanceU.pas"/>
+        <DCCReference Include="DataModule.pas">
+            <Form>DM1</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -502,6 +502,10 @@
                     </Platform>
                 </DeployFile>
                 <DeployFile LocalName="DB\DbCiclo.db" Configuration="Debug" Class="File">
+                    <Platform Name="All Platforms">
+                        <RemoteDir>.\assests\internal\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
                     <Platform Name="Android">
                         <RemoteDir>.\assets\internal\</RemoteDir>
                         <RemoteName>DbCiclo.db</RemoteName>
@@ -534,6 +538,11 @@
                 <DeployFile LocalName="All Platforms\Debug\Splash" Configuration="Debug" Class="ProjectOutput">
                     <Platform Name="All Platforms">
                         <RemoteName>Splash</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="$(NDKBasePath)\prebuilt\android-arm\gdbserver\gdbserver" Configuration="Release" Class="AndroidGDBServer">
+                    <Platform Name="Android">
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
@@ -2157,6 +2166,7 @@
     <Import Project="$(BDS)\Bin\CodeGear.Delphi.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')"/>
     <Import Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj" Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')"/>
     <Import Project="$(MSBuildProjectName).deployproj" Condition="Exists('$(MSBuildProjectName).deployproj')"/>
+    <ProjectExtensions/>
     <ProjectExtensions/>
     <ProjectExtensions/>
 </Project>

@@ -10,8 +10,8 @@
     <Transaction>2018/08/16 13:51:06.000.870,=C:\Users\Heber\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2018/12/12 00:17:31.000.142,=C:\Users\Heber\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2020/01/03 14:52:00.000.149,=C:\Users\Heber\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2020/01/03 14:54:09.000.056,D:\99Coders\Posts\57 - Como fazer splashscreen 9-patch ----------\Fontes\Unit1.pas=C:\Users\Heber\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2020/01/03 14:54:09.000.056,D:\99Coders\Posts\57 - Como fazer splashscreen 9-patch ----------\Fontes\Unit1.fmx=C:\Users\Heber\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2020/01/03 14:54:09.000.056,D:\99Coders\Posts\57 - Como fazer splashscreen 9-patch ----------\Fontes\Unit1.pas=C:\Users\Heber\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
     <Transaction>2020/01/03 14:54:18.000.866,D:\99Coders\Posts\57 - Como fazer splashscreen 9-patch ----------\Fontes\Splash.dproj=C:\Users\Heber\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
     <Transaction>2020/01/30 14:43:26.000.038,=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit2.pas</Transaction>
     <Transaction>2020/01/30 15:07:24.000.009,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Login1.pas=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit2.pas</Transaction>
@@ -24,18 +24,18 @@
     <Transaction>2020/02/03 14:31:11.000.769,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\MiscU.pas=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit1.pas</Transaction>
     <Transaction>2020/02/03 15:10:31.000.713,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\MiscU.pas=</Transaction>
     <Transaction>2020/02/03 15:10:39.000.346,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Email.pas=</Transaction>
+    <Transaction>2020/02/03 16:13:46.000.806,=C:\Users\Antônio\Downloads\Firemonkey-jsAuth-master (1)\Firemonkey-jsAuth-master\jsAuth Componente\FMX.WebBrowserHelper.pas</Transaction>
     <Transaction>2020/02/03 16:13:46.000.697,=C:\Users\Antônio\Downloads\Firemonkey-jsAuth-master (1)\Firemonkey-jsAuth-master\jsAuth Componente\FMX.jsAuth.pas</Transaction>
     <Transaction>2020/02/03 16:13:46.000.796,=C:\Users\Antônio\Downloads\Firemonkey-jsAuth-master (1)\Firemonkey-jsAuth-master\jsAuth Componente\FMX.jsAuthForm.pas</Transaction>
-    <Transaction>2020/02/03 16:13:46.000.806,=C:\Users\Antônio\Downloads\Firemonkey-jsAuth-master (1)\Firemonkey-jsAuth-master\jsAuth Componente\FMX.WebBrowserHelper.pas</Transaction>
     <Transaction>2020/02/04 17:09:21.000.833,=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit3.pas</Transaction>
-    <Transaction>2020/02/04 17:10:23.000.459,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\FormCadUsuario.fmx=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit3.fmx</Transaction>
     <Transaction>2020/02/04 17:10:23.000.459,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\FormCadUsuario.pas=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit3.pas</Transaction>
+    <Transaction>2020/02/04 17:10:23.000.459,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\FormCadUsuario.fmx=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit3.fmx</Transaction>
     <Transaction>2020/02/05 09:16:33.000.259,=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit4.pas</Transaction>
     <Transaction>2020/02/05 09:16:48.000.947,=C:\Users\Antônio\Downloads\login-facebook\Fontes\Form_LoginFacebook.pas</Transaction>
-    <Transaction>2020/02/05 09:18:21.000.376,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit4.fmx=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Facebook.fmx</Transaction>
     <Transaction>2020/02/05 09:18:21.000.376,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit4.pas=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Facebook.pas</Transaction>
-    <Transaction>2020/02/05 09:18:30.000.028,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Facebook.fmx=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Facebook_login.fmx</Transaction>
+    <Transaction>2020/02/05 09:18:21.000.376,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit4.fmx=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Facebook.fmx</Transaction>
     <Transaction>2020/02/05 09:18:30.000.028,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Facebook.pas=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Facebook_login.pas</Transaction>
+    <Transaction>2020/02/05 09:18:30.000.028,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Facebook.fmx=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Facebook_login.fmx</Transaction>
     <Transaction>2020/02/05 11:13:48.000.887,C:\Users\Antônio\Downloads\login-facebook\Fontes\Form_LoginFacebook.pas=</Transaction>
     <Transaction>2020/02/05 15:04:17.000.485,C:\Users\Antônio\Downloads\Firemonkey-jsAuth-master (1)\Firemonkey-jsAuth-master\jsAuth Componente\FMX.jsAuth.pas=</Transaction>
     <Transaction>2020/02/05 15:04:21.000.025,C:\Users\Antônio\Downloads\Firemonkey-jsAuth-master (1)\Firemonkey-jsAuth-master\jsAuth Componente\FMX.jsAuthForm.pas=</Transaction>
@@ -49,14 +49,18 @@
     <Transaction>2020/02/07 17:21:37.000.087,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\DataModule.dfm=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit1.dfm</Transaction>
     <Transaction>2020/02/07 17:21:37.000.087,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\DataModule.pas=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit1.pas</Transaction>
     <Transaction>2020/02/08 00:48:02.000.191,=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit1.pas</Transaction>
-    <Transaction>2020/02/08 00:48:06.000.827,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Main.pas=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit1.pas</Transaction>
     <Transaction>2020/02/08 00:48:06.000.827,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Main.fmx=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit1.fmx</Transaction>
+    <Transaction>2020/02/08 00:48:06.000.827,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Main.pas=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Unit1.pas</Transaction>
     <Transaction>2020/02/08 01:20:44.000.664,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Home.fmx=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Main.fmx</Transaction>
     <Transaction>2020/02/08 01:20:44.000.664,C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Home.pas=C:\Users\Antônio\Documents\Embarcadero\Studio\Fontes\Main.pas</Transaction>
     <Transaction>2020/02/10 14:08:07.000.162,C:\Users\Cleyton\Documents\Embarcadero\Studio\Projects\AppCiclo\Login1.pas=</Transaction>
     <Transaction>2020/02/10 16:32:55.000.570,=C:\Users\Cleyton\Documents\Embarcadero\Studio\Projects\AppCiclo\Login1.pas</Transaction>
     <Transaction>2020/02/10 16:33:49.000.481,=C:\Users\Cleyton\Documents\Embarcadero\Studio\Projects\AppCiclo\Form_LoginFacebook.pas</Transaction>
     <Transaction>2020/02/10 16:35:08.000.110,=C:\Users\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Multi-Device Samples\User Interface\ListView\ListViewMultiDetailAppearance\MultiDetailAppearanceU.pas</Transaction>
+    <Transaction>2020/02/11 10:46:28.348,C:\Users\Cleyton\Documents\Embarcadero\Studio\Projects\AppCiclo\DataModule.pas=</Transaction>
+    <Transaction>2020/02/11 10:47:33.989,=C:\Users\Cleyton\Documents\Embarcadero\Studio\Projects\AppCiclo\Unit1.pas</Transaction>
+    <Transaction>2020/02/11 10:48:13.332,C:\Users\Cleyton\Documents\Embarcadero\Studio\Projects\AppCiclo\DataModule.pas=C:\Users\Cleyton\Documents\Embarcadero\Studio\Projects\AppCiclo\Unit1.pas</Transaction>
+    <Transaction>2020/02/11 10:48:13.332,C:\Users\Cleyton\Documents\Embarcadero\Studio\Projects\AppCiclo\DataModule.dfm=C:\Users\Cleyton\Documents\Embarcadero\Studio\Projects\AppCiclo\Unit1.dfm</Transaction>
   </Transactions>
 	<ActiveMobileDevice>
 		<NoProfile Android="emulator-5554" iOSSimulator="iPhone5" Android64="emulator-5554"/>

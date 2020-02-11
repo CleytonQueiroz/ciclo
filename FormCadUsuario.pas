@@ -6,13 +6,14 @@ uses
   System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Edit,
   FMX.Layouts, FMX.Ani, FMX.StdCtrls, FMX.Controls.Presentation, REST.Types,
-  Data.Bind.Components, Data.Bind.ObjectScope, REST.Client, Login1, DataModule
+  Data.Bind.Components, Data.Bind.ObjectScope, REST.Client, Login1,
+  REST.Authenticator.OAuth, DataModule,
 
-  ,REST.Utils
+   REST.Utils
   ,System.JSON
   ,Web.HTTPApp
   ,System.Net.HttpClient
-  ,IdHTTP, FMX.Effects, FMX.Filter.Effects, REST.Authenticator.OAuth;
+  ,IdHTTP, FMX.Effects, FMX.Filter.Effects, Apresentacao;
 
 type
   TFormCadastroUsuario = class(TForm)
@@ -109,21 +110,21 @@ try
                 showmessage('Informe o nome.');
                 exit;
         end;
-              dm.Qry_geral.Active := False;
-              //dm.Qry_Vendedor.Active := True;
-              dm.Qry_geral.sql.Clear;
 
-              dm.Qry_geral.sql.Add('insert into vendedor(first_name,last_name,email)');
-              dm.Qry_geral.sql.Add('values(:first_name,:last_name,:email)');
-              dm.Qry_geral.ParamByName('first_name').Value := ed_priNome.Text;
-              dm.Qry_geral.ParamByName('last_name').Value := ed_ultimoNome.Text;
-              dm.Qry_geral.ParamByName('email').Value := ed_email.Text;
 
-              //DMod.FDQGeral.Insert;
-              dm.Qry_geral.ExecSQL;
-            //  DMod.FDQGeral.Close;
+              //dm1.Qry_geral.Active := True;
+
+              dm1.Qry_geral.Active := False;
+              dm1.Qry_geral.sql.Clear;
+              dm1.Qry_geral.sql.Add('insert into vendedor(first_name,last_name,email)');
+              dm1.Qry_geral.sql.Add('values(:first_name,:last_name,:email)');
+              dm1.Qry_geral.ParamByName('first_name').Value := ed_priNome.Text;
+              dm1.Qry_geral.ParamByName('last_name').Value := ed_ultimoNome.Text;
+              dm1.Qry_geral.ParamByName('email').Value := ed_email.Text;
+              dm1.Qry_geral.ExecSQL;
+
               showmessage('Cadastrado com sucesso.');
-              FormCadastroUsuario.Close;
+              //FormCadastroUsuario.Close;
           except
         on E: Exception do
           showmessage('Erro3.' + UpperCase(E.Message));

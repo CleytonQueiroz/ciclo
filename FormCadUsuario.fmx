@@ -464,7 +464,7 @@ object FormCadastroUsuario: TFormCadastroUsuario
   end
   object OAuth2_Facebook: TOAuth2Authenticator
     AuthorizationEndpoint = 'https://www.facebook.com/dialog/oauth'
-    Left = 358
-    Top = 8
+    Left = 174
+    Top = 112
   end
 end
