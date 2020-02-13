@@ -1,8 +1,8 @@
 object FormHome: TFormHome
-  Left = 0
-  Top = 0
+  Left = 600
+  Top = 48
   Caption = 'Form1'
-  ClientHeight = 480
+  ClientHeight = 614
   ClientWidth = 394
   Fill.Bitmap.Bitmap.PNG = {
     89504E470D0A1A0A0000000D4948445200000129000002370806000000C7ADAD
@@ -2768,10 +2768,12 @@ object FormHome: TFormHome
     ED2E0000000049454E44AE426082}
   Fill.Bitmap.WrapMode = Tile
   Fill.Kind = Bitmap
+  Position = Designed
   FormFactor.Width = 320
   FormFactor.Height = 480
   FormFactor.Devices = [Desktop]
-  OnShow = FormShow
+  Left = 600
+  Top = 48
   DesignerMasterStyle = 3
   object Ret1: TRectangle
     Align = Top
@@ -5672,25 +5674,172 @@ object FormHome: TFormHome
       YRadius = 10.000000000000000000
     end
   end
-  object listaMenu2: TListView
-    ItemAppearanceClassName = 'TMultiDetailItemAppearance'
-    ItemEditAppearanceClassName = 'TMultiDetailDeleteAppearance'
-    HeaderAppearanceClassName = 'TListHeaderObjects'
-    FooterAppearanceClassName = 'TListHeaderObjects'
-    EditMode = True
+  object Layout1: TLayout
     Align = Client
-    Margins.Left = 5.000000000000000000
-    Margins.Top = 5.000000000000000000
-    Margins.Right = 5.000000000000000000
-    Margins.Bottom = 5.000000000000000000
-    Opacity = 0.500000000000000000
-    Padding.Left = 5.000000000000000000
-    Padding.Top = 5.000000000000000000
-    Padding.Right = 5.000000000000000000
-    Padding.Bottom = 5.000000000000000000
-    Size.Width = 384.000000000000000000
-    Size.Height = 245.000000000000000000
+    Size.Width = 394.000000000000000000
+    Size.Height = 389.000000000000000000
     Size.PlatformDefault = False
-    TabOrder = 1
+    TabOrder = 2
+    object Rect2: TRectangle
+      Align = Top
+      Opacity = 0.500000000000000000
+      Margins.Left = 15.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Position.X = 15.000000000000000000
+      Position.Y = 80.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Label2: TLabel
+        Align = Left
+        Margins.Left = 30.000000000000000000
+        Position.X = 30.000000000000000000
+        Size.Width = 250.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Compartilhar com os amigos'
+        TabOrder = 0
+      end
+      object RectBtn2: TRectangle
+        Align = Right
+        Position.X = 314.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object SpeedButton2: TSpeedButton
+          Align = Center
+          Opacity = 0.500000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowrighttoolbutton'
+          Text = 'SpeedButton2'
+        end
+      end
+    end
+    object Rect3: TRectangle
+      Align = Top
+      Opacity = 0.500000000000000000
+      Margins.Left = 15.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Position.X = 15.000000000000000000
+      Position.Y = 150.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Label3: TLabel
+        Align = Left
+        Margins.Left = 30.000000000000000000
+        Position.X = 30.000000000000000000
+        Size.Width = 145.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Parceiros CICLO'
+        TabOrder = 0
+      end
+      object RectBtn3: TRectangle
+        Align = Right
+        Position.X = 314.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object SpeedButton3: TSpeedButton
+          Align = Center
+          Opacity = 0.500000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowrighttoolbutton'
+          Text = 'SpeedButton3'
+        end
+      end
+    end
+    object Rect4: TRectangle
+      Align = Top
+      Opacity = 0.500000000000000000
+      Margins.Left = 15.000000000000000000
+      Margins.Top = 20.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Position.X = 15.000000000000000000
+      Position.Y = 220.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      object Label4: TLabel
+        Align = Left
+        Margins.Left = 30.000000000000000000
+        Position.X = 30.000000000000000000
+        Size.Width = 247.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Unidades de atendimento'
+        TabOrder = 0
+      end
+      object RectBtn4: TRectangle
+        Align = Right
+        Position.X = 314.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object SpeedButton4: TSpeedButton
+          Align = Center
+          Opacity = 0.500000000000000000
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowrighttoolbutton'
+          Text = 'SpeedButton4'
+        end
+      end
+    end
+    object Rect1: TRectangle
+      Align = Top
+      Opacity = 0.500000000000000000
+      Margins.Left = 15.000000000000000000
+      Margins.Top = 10.000000000000000000
+      Margins.Right = 15.000000000000000000
+      Position.X = 15.000000000000000000
+      Position.Y = 10.000000000000000000
+      Size.Width = 364.000000000000000000
+      Size.Height = 50.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      Stroke.Thickness = 0.000000000000000000
+      object Label1: TLabel
+        Align = Left
+        Margins.Left = 30.000000000000000000
+        Position.X = 30.000000000000000000
+        Size.Width = 237.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Text = 'Minha Evolu'#231#227'o Sustent'#225'vel'
+        TabOrder = 0
+      end
+      object RectBtn1: TRectangle
+        Align = Right
+        Opacity = 0.500000000000000000
+        Position.X = 314.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 50.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object SpeedButton1: TSpeedButton
+          Align = Center
+          Size.Width = 48.000000000000000000
+          Size.Height = 48.000000000000000000
+          Size.PlatformDefault = False
+          StyleLookup = 'arrowrighttoolbutton'
+          Text = 'SpeedButton1'
+        end
+      end
+    end
   end
 end

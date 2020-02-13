@@ -8,7 +8,7 @@ uses
   FMX.TabControl, FMX.Layouts, System.Actions, FMX.ActnList, FMX.Gestures,
   FMX.Ani, FMX.Effects, FMX.Filter.Effects, FMX.Controls.Presentation,
   FMX.StdCtrls, Login1, FMX.StdActns, FMX.MultiView, FMX.ScrollBox,
-  FMX.Memo, FMX.Edit, Xml.xmldom, Xml.XmlTransform, DataModule;
+  FMX.Memo, FMX.Edit, Xml.xmldom, Xml.XmlTransform;
 
 type
   TFormApresentacao = class(TForm)

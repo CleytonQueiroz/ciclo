@@ -13,7 +13,7 @@ uses
   ,System.JSON
   ,Web.HTTPApp
   ,System.Net.HttpClient
-  ,IdHTTP, FMX.Effects, FMX.Filter.Effects, Apresentacao;
+  ,IdHTTP, FMX.Effects, FMX.Filter.Effects, Apresentacao, Home;
 
 type
   TFormCadastroUsuario = class(TForm)
@@ -124,7 +124,9 @@ try
               dm1.Qry_geral.ExecSQL;
 
               showmessage('Cadastrado com sucesso.');
-              //FormCadastroUsuario.Close;
+              FormCadastroUsuario.Close;
+              FormHome.show;
+
           except
         on E: Exception do
           showmessage('Erro3.' + UpperCase(E.Message));

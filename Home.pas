@@ -8,14 +8,30 @@ uses
   FMX.ListView.Types, FMX.ListView.Appearances, FMX.ListView.Adapters.Base,
   FMX.ListView, FMX.Objects, MultiDetailAppearanceU, Data.Bind.GenData,
   Data.Bind.EngExt, Fmx.Bind.DBEngExt, System.Rtti, System.Bindings.Outputs,
-  Fmx.Bind.Editors, Data.Bind.Components, Data.Bind.ObjectScope;
+  Fmx.Bind.Editors, Data.Bind.Components, Data.Bind.ObjectScope, FMX.Layouts,
+  FMX.Controls.Presentation, FMX.StdCtrls;
 
 type
   TFormHome = class(TForm)
     Ret1: TRectangle;
     Ret_cartao: TRectangle;
-    listaMenu2: TListView;
-    procedure FormShow(Sender: TObject);
+    Layout1: TLayout;
+    Rect1: TRectangle;
+    Rect2: TRectangle;
+    Rect3: TRectangle;
+    Rect4: TRectangle;
+    SpeedButton1: TSpeedButton;
+    SpeedButton2: TSpeedButton;
+    SpeedButton3: TSpeedButton;
+    SpeedButton4: TSpeedButton;
+    Label1: TLabel;
+    Label2: TLabel;
+    Label3: TLabel;
+    Label4: TLabel;
+    RectBtn1: TRectangle;
+    RectBtn2: TRectangle;
+    RectBtn3: TRectangle;
+    RectBtn4: TRectangle;
   private
     { Private declarations }
   public
@@ -29,13 +45,4 @@ implementation
 
 {$R *.fmx}
 
-procedure TFormHome.FormShow(Sender: TObject);
-var
-   ListItem: TListViewItem;
-
-Begin
-
-   ListItem := listaMenu2.Items.Add;
-   ListItem.Text:= 'Minha evolução sustentável';
-end;
 end.
