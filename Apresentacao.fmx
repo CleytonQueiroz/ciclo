@@ -18,7 +18,7 @@ object FormApresentacao: TFormApresentacao
     Size.PlatformDefault = False
     StyleLookup = 'tabcontrolstyle'
     TabHeight = 49.000000000000000000
-    TabIndex = 0
+    TabIndex = 2
     TabOrder = 0
     TabPosition = None
     Sizes = (
@@ -43,7 +43,7 @@ object FormApresentacao: TFormApresentacao
       CustomIcon = <
         item
         end>
-      IsSelected = True
+      IsSelected = False
       Size.Width = 8.000000000000000000
       Size.Height = 8.000000000000000000
       Size.PlatformDefault = False
@@ -11763,7 +11763,7 @@ object FormApresentacao: TFormApresentacao
       CustomIcon = <
         item
         end>
-      IsSelected = False
+      IsSelected = True
       Size.Width = 8.000000000000000000
       Size.Height = 8.000000000000000000
       Size.PlatformDefault = False
@@ -18162,8 +18162,8 @@ object FormApresentacao: TFormApresentacao
     end
   end
   object ActionList1: TActionList
-    Left = 224
-    Top = 552
+    Left = 128
+    Top = 376
     object ChangeTabAction1: TChangeTabAction
       Category = 'Tab'
       OnUpdate = ChangeTabAction1Update
@@ -18172,28 +18172,15 @@ object FormApresentacao: TFormApresentacao
       Category = 'Tab'
       OnUpdate = ChangeTabAction2Update
     end
-    object WindowClose1: TWindowClose
-      Category = 'Window'
-      Hint = 'Close Window|Close active form'
-    end
-    object ActLogin: TChangeTabAction
-      Category = 'Tab'
-    end
     object ActVoltaTab3: TChangeTabAction
       Category = 'Tab'
       Tab = TabItem3
     end
-    object ActGoogle: TChangeTabAction
-      Category = 'Tab'
-    end
-    object ActCaduser: TChangeTabAction
-      Category = 'Tab'
-    end
   end
   object GestureManager1: TGestureManager
     Sensitivity = 80.000000000000000000
-    Left = 8
-    Top = 568
+    Left = 40
+    Top = 424
     GestureData = <
       item
         Control = Owner
@@ -18207,9 +18194,5 @@ object FormApresentacao: TFormApresentacao
             GestureID = sgiRight
           end>
       end>
-  end
-  object XMLTransform1: TXMLTransform
-    Left = 52
-    Top = 479
   end
 end

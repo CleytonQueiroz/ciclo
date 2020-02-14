@@ -32,6 +32,19 @@ type
     RectBtn2: TRectangle;
     RectBtn3: TRectangle;
     RectBtn4: TRectangle;
+    RectInicio: TRectangle;
+    ImgHome: TImage;
+    Layout2: TLayout;
+    RectBarMenu: TRectangle;
+    ImgCarteira: TImage;
+    RectCarteira: TRectangle;
+    RectConfig: TRectangle;
+    RectAtividade: TRectangle;
+    Image1: TImage;
+    Image2: TImage;
+    Image3: TImage;
+    Rectangle1: TRectangle;
+    Rectangle2: TRectangle;
   private
     { Private declarations }
   public

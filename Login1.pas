@@ -57,8 +57,8 @@ implementation
 
 {$R *.fmx}
 
-uses Form_LoginFacebook, FormCadUsuario, Home;
-
+uses Form_LoginFacebook, FormCadUsuario;
+         //Home
 function LoadStreamFromURL(url : string): TMemoryStream;
 var
         MS : TMemoryStream;
@@ -99,8 +99,7 @@ end;
 procedure TFormLogin.bt_login_googleClick(Sender: TObject);
 begin
 
-    FormHome := FormHome.Create(Application);
-    FormHome.Show;
+
 
 // jsAuthGoogle.Clear;
 //
@@ -201,8 +200,8 @@ procedure TFormLogin.bt_login_faceClick(Sender: TObject);
 //var
         //id_aplicativo, LURL : string;
 begin
-         FormCadastroUsuario.FormCreate(Application);
-         // FormCadastroUsuario.Show;
+          FormCadastroUsuario.FormCreate(Application);
+          //FormCadastroUsuario.Show;
 
 //        try
 //                FAccessToken := '';

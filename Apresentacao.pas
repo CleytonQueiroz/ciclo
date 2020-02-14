@@ -7,8 +7,8 @@ uses
   FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Objects,
   FMX.TabControl, FMX.Layouts, System.Actions, FMX.ActnList, FMX.Gestures,
   FMX.Ani, FMX.Effects, FMX.Filter.Effects, FMX.Controls.Presentation,
-  FMX.StdCtrls, Login1, FMX.StdActns, FMX.MultiView, FMX.ScrollBox,
-  FMX.Memo, FMX.Edit, Xml.xmldom, Xml.XmlTransform;
+  FMX.StdCtrls, FMX.StdActns, FMX.MultiView, FMX.ScrollBox,
+  FMX.Memo, FMX.Edit, Xml.xmldom, Xml.XmlTransform, Login1;
 
 type
   TFormApresentacao = class(TForm)
@@ -30,19 +30,13 @@ type
     FadeTransitionEffect1: TFadeTransitionEffect;
     FloatAnimation1: TFloatAnimation;
     Button1: TButton;
-    WindowClose1: TWindowClose;
-    ActLogin: TChangeTabAction;
     ActVoltaTab3: TChangeTabAction;
-    ActGoogle: TChangeTabAction;
-    ActCaduser: TChangeTabAction;
-    XMLTransform1: TXMLTransform;
     procedure ChangeTabAction1Update(Sender: TObject);
     procedure ChangeTabAction2Update(Sender: TObject);
     procedure FormShow(Sender: TObject);
     procedure Button1Click(Sender: TObject);
     procedure Image4Click(Sender: TObject);
     procedure Image7Click(Sender: TObject);
-    procedure Rectangle5Click(Sender: TObject);
   private
     procedure controlaCircle();
   public
@@ -58,8 +52,8 @@ implementation
 
 procedure TFormApresentacao.Button1Click(Sender: TObject);
 begin
-    Form_Login := TFormLogin.Create(Application);
-    Form_Login.Show;
+      Form_Login := TFormLogin.Create(Application);
+      Form_Login.Show;
 //    ActLogin.ExecuteTarget(Sender);
 //    Layout1.Visible := false;
 end;
@@ -167,11 +161,6 @@ procedure TFormApresentacao.Image7Click(Sender: TObject);
 begin
     ActVoltaTab3.ExecuteTarget(Sender);
       Layout1.Visible := true;
-end;
-
-procedure TFormApresentacao.Rectangle5Click(Sender: TObject);
-begin
-       ActCaduser.ExecuteTarget(Sender);
 end;
 
 end.
