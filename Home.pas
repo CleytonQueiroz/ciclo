@@ -45,6 +45,8 @@ type
     Image3: TImage;
     Rectangle1: TRectangle;
     Rectangle2: TRectangle;
+    Circle1: TCircle;
+    Label5: TLabel;
   private
     { Private declarations }
   public

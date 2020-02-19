@@ -372,20 +372,12 @@
             <Form>FormApresentacao</Form>
             <FormType>fmx</FormType>
         </DCCReference>
-        <DCCReference Include="FormCadUsuario.pas">
-            <Form>FormCadastroUsuario</Form>
-            <FormType>fmx</FormType>
-        </DCCReference>
         <DCCReference Include="Home.pas">
             <Form>FormHome</Form>
             <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="Login1.pas">
             <Form>FormLogin</Form>
-            <FormType>fmx</FormType>
-        </DCCReference>
-        <DCCReference Include="Form_LoginFacebook.pas">
-            <Form>Frm_LoginFacebook</Form>
             <FormType>fmx</FormType>
         </DCCReference>
         <DCCReference Include="..\..\..\..\..\..\Public\Documents\Embarcadero\Studio\20.0\Samples\Object Pascal\Multi-Device Samples\User Interface\ListView\ListViewMultiDetailAppearance\MultiDetailAppearanceU.pas"/>

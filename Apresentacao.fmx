@@ -2,8 +2,8 @@ object FormApresentacao: TFormApresentacao
   Left = 0
   Top = 0
   Caption = 'Splash'
-  ClientHeight = 616
-  ClientWidth = 361
+  ClientHeight = 627
+  ClientWidth = 389
   Fill.Kind = Solid
   FormFactor.Width = 320
   FormFactor.Height = 480
@@ -13,8 +13,8 @@ object FormApresentacao: TFormApresentacao
   DesignerMasterStyle = 3
   object TabControl1: TTabControl
     Align = Client
-    Size.Width = 361.000000000000000000
-    Size.Height = 566.000000000000000000
+    Size.Width = 389.000000000000000000
+    Size.Height = 577.000000000000000000
     Size.PlatformDefault = False
     StyleLookup = 'tabcontrolstyle'
     TabHeight = 49.000000000000000000
@@ -22,12 +22,12 @@ object FormApresentacao: TFormApresentacao
     TabOrder = 0
     TabPosition = None
     Sizes = (
-      361s
-      566s
-      361s
-      566s
-      361s
-      566s)
+      389s
+      577s
+      389s
+      577s
+      389s
+      577s)
     object FadeTransitionEffect1: TFadeTransitionEffect
       Enabled = False
       Progress = 100.000000000000000000
@@ -6411,8 +6411,8 @@ object FormApresentacao: TFormApresentacao
               'png'
           end>
         Align = Client
-        Size.Width = 361.000000000000000000
-        Size.Height = 566.000000000000000000
+        Size.Width = 389.000000000000000000
+        Size.Height = 577.000000000000000000
         Size.PlatformDefault = False
         WrapMode = Stretch
       end
@@ -11753,8 +11753,8 @@ object FormApresentacao: TFormApresentacao
               'png'
           end>
         Align = Client
-        Size.Width = 361.000000000000000000
-        Size.Height = 566.000000000000000000
+        Size.Width = 389.000000000000000000
+        Size.Height = 577.000000000000000000
         Size.PlatformDefault = False
         WrapMode = Stretch
       end
@@ -18109,8 +18109,8 @@ object FormApresentacao: TFormApresentacao
               'png'
           end>
         Align = Client
-        Size.Width = 361.000000000000000000
-        Size.Height = 566.000000000000000000
+        Size.Width = 389.000000000000000000
+        Size.Height = 577.000000000000000000
         Size.PlatformDefault = False
         WrapMode = Stretch
         ParentShowHint = False
@@ -18132,8 +18132,8 @@ object FormApresentacao: TFormApresentacao
   end
   object Layout1: TLayout
     Align = Bottom
-    Position.Y = 566.000000000000000000
-    Size.Width = 361.000000000000000000
+    Position.Y = 577.000000000000000000
+    Size.Width = 389.000000000000000000
     Size.Height = 50.000000000000000000
     Size.PlatformDefault = False
     TabOrder = 1

@@ -54,7 +54,7 @@ procedure TFormApresentacao.Button1Click(Sender: TObject);
 begin
       Form_Login := TFormLogin.Create(Application);
       Form_Login.Show;
-//    ActLogin.ExecuteTarget(Sender);
+
 //    Layout1.Visible := false;
 end;
 
